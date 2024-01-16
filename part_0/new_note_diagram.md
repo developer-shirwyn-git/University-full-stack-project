@@ -17,6 +17,6 @@ sequenceDiagram
   Browser->>Server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
   Server-->>Browser: Javascript File (Status code 200)
 
-  Note left of Browser: Another GET request is initiated by the Xhttp onject in javascript code
+  Note left of Browser: Another GET request is initiated by the Xhttp object in javascript code
   Browser->>Server: GET "/exampleapp/data.json"
   Server-->>Browser: Array of JSON Objects
