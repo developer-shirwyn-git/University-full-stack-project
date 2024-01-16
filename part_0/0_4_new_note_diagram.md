@@ -4,7 +4,7 @@ sequenceDiagram
   participant browser
   participant server
 
-  Note left of browser: Form containing text data is sent to the server
+  Note left of browser: Text data from form is sent to the server
   Note right of server: Form data is parsed and stored for adding to the list
 
   browser->>server: POST https://studies.cs.helsinki.fi/
