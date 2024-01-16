@@ -1,6 +1,5 @@
 ```mermaid
 sequenceDiagram
-  AutoNumber
   box New Note Diagram
   participant Browser
   participant Server
