@@ -3,7 +3,7 @@ sequenceDiagram
   participant browser
   participant server
 
-  Note left of browser: Text data from form is sent to the server as JSON data
+  Note left of browser: Data from form is sent to the server as JSON data
   Note right of server: Form data is parsed, stored and a message is sent back
 
   browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
