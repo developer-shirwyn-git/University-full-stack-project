@@ -1,4 +1,4 @@
-SequenceDiagram
+sequenceDiagram
   box New Note Diagram
   participant Browser
   participant Server
