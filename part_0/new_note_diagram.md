@@ -1,4 +1,6 @@
+```mermaid
 sequenceDiagram
+  AutoNumber
   box New Note Diagram
   participant Browser
   participant Server
@@ -20,3 +22,4 @@ sequenceDiagram
   Note left of Browser: Another GET request is initiated by the Xhttp object in javascript code
   Browser->>Server: GET "/exampleapp/data.json"
   Server-->>Browser: Array of JSON Objects
+```
